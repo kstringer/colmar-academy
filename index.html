@@ -15,11 +15,17 @@
         <p><span class="bold">COLMAR</span><span class="gray">ACADEMY</span></p>
       </div>
 
-      <nav>
+      <nav class="desktop">
         <span><a href="#">On campus</a></span>
         <span><a href="#">Online</a></span>
         <span><a href="#">For companies</a></span>
         <span><a href="#">Sign in</a></span>
+      </nav>
+      <nav class="mobile">
+        <span><a href="#"><img src="resources/images/ic-logo.svg" alt="lion logo icon"></a></span>
+        <span><a href="#"><img src="resources/images/ic-on-campus.svg" alt="desk icon"></a></span>
+        <span><a href="#"><img src="resources/images/ic-online.svg" alt="monitor icon"></a></span>
+        <span><a href="#"><img src="resources/images/ic-login.svg" alt="sign in icon"></a></span>
       </nav>
     </header>
 
@@ -51,7 +57,8 @@
       <div class="info-sections">
         <div class="info-section flex">
           <div class="info-section-image top">
-            <img src="resources/images/information-orientation.jpg" alt="people walking">
+            <img class="desktop" src="resources/images/information-orientation.jpg" alt="people walking">
+            <img class="mobile" src="resources/images/information-orientation-mobile.jpg" alt="people walking">
           </div>
           <div class="info-section-text">
             <h3>Orientation date</h3>
@@ -61,7 +68,9 @@
         </div>
         <div class="info-section flex">
           <div class="info-section-image">
-            <img src="resources/images/information-campus.jpg" alt="in classroom">
+            <img class="desktop" src="resources/images/information-campus.jpg" alt="in classroom">
+            <img class="mobile" src="resources/images/information-campus-mobile.jpg" alt="in classroom">
+
           </div>
           <div class="info-section-text">
             <h3>Our campus</h3>
@@ -71,7 +80,9 @@
         </div>
         <div class="info-section flex">
           <div class="info-section-image">
-            <img src="resources/images/information-guest-lecture.jpg" alt="Oliver Sack">
+            <img class="desktop" src="resources/images/information-guest-lecture.jpg" alt="Oliver Sack">
+            <img class="mobile" src="resources/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack">
+
           </div>
           <div class="info-section-text">
             <h3>Our guest lecture</h3>
@@ -150,34 +161,36 @@
     </div>
 
     <!-- Thesis Section -->
-    <div class="thesis flex">
-      <h2>Thesis Exhibit</h2>
-      <div class="thesis-main">
-        <div class="thesis-main-video">
-          <video src="resources/videos/thesis.mp4"></video>
-        </div>
-        <div class="thesis-main-text">
-          <h3>Reimagine urban</h3>
-          <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna loareet, efficitur dolor consequat, tristique ligula."</p>
-        </div>
-      </div>
-      <div class="thesis-sections">
-        <div class="thesis-section flex">
-          <div class="thesis-section-image">
-            <img src="resources/images/thesis-fisma.jpg" alt="Design and Prototype">
+    <div class="thesis">
+      <h2>Thesis exhibits</h2>
+      <div class="thesis-info flex">
+        <div class="thesis-main">
+          <div class="thesis-main-video">
+            <video src="resources/videos/thesis.mp4" controls></video>
           </div>
-          <div class="thesis-section-text">
-            <h3>Fisma: Design and Prototype</h3>
-            <p>Designer showcase of new prototype product</p>
+          <div class="thesis-main-text">
+            <h3>Reimagine urban</h3>
+            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna loareet, efficitur dolor consequat, tristique ligula."</p>
           </div>
         </div>
-        <div class="thesis-section flex">
-          <div class="thesis-section-image">
-            <img src="resources/images/thesis-now-and-then.jpg" alt="skyscraper">
+        <div class="thesis-sections">
+          <div class="thesis-section flex">
+            <div class="thesis-section-image">
+              <img src="resources/images/thesis-fisma.jpg" alt="Design and Prototype">
+            </div>
+            <div class="thesis-section-text">
+              <h3>Fisma: Design and Prototype</h3>
+              <p>Designer showcase of new prototype product</p>
+            </div>
           </div>
-          <div class="thesis-section-text">
-            <h3>Now and then</h3>
-            <p>Research study about New York</p>
+          <div class="thesis-section flex">
+            <div class="thesis-section-image">
+              <img src="resources/images/thesis-now-and-then.jpg" alt="skyscraper">
+            </div>
+            <div class="thesis-section-text">
+              <h3>Now and then</h3>
+              <p>Research study about New York</p>
+            </div>
           </div>
         </div>
       </div>
